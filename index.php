@@ -1,7 +1,10 @@
 <?php
-//require('model/database.php');
+require('model/database.php');
 require('model/accounts_db.php');
 require('model/questions_db.php');
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 $action = filter_input(INPUT_POST, 'action');
 if ($action == NULL) {
