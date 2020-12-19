@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Added Add Question">
-      <change afterPath="$PROJECT_DIR$/views/edit_questions_form.php" afterDir="false" />
+    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Added buttons and functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/questions_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/questions_db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/abstract-views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/abstract-views/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/display_questions.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/display_questions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/questions_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/questions_form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
       <updated>1608337986862</updated>
       <workItem from="1608337987933" duration="13798000" />
       <workItem from="1608397439966" duration="633000" />
-      <workItem from="1608398383122" duration="14006000" />
+      <workItem from="1608398383122" duration="17631000" />
     </task>
     <task id="LOCAL-00001" summary="Use MVC Practice As Base">
       <created>1608338591399</created>
@@ -105,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608398445770</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added buttons and functionality">
+      <created>1608413660653</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608413660653</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +140,7 @@
     <MESSAGE value="Use MVC Practice As Base" />
     <MESSAGE value="Changed header" />
     <MESSAGE value="Added Add Question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Add Question" />
+    <MESSAGE value="Added buttons and functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added buttons and functionality" />
   </component>
 </project>
