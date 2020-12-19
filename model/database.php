@@ -1,6 +1,6 @@
 <?php
-$username = 'bcn3_proj';
-$password = 'w9hLvRFP';
+$username = 'iy9';
+$password = 'ICLrbjKM';
 $dsn = "mysql:host=sql1.njit.edu;dbname=$username";
 try {
     $db = new PDO($dsn, $username, $password);
