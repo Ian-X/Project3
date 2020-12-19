@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Use MVC Practice As Base" />
+    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Use MVC Practice As Base">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hi.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608337986862</updated>
-      <workItem from="1608337987933" duration="1688000" />
+      <workItem from="1608337987933" duration="2673000" />
     </task>
     <task id="LOCAL-00001" summary="Use MVC Practice As Base">
       <created>1608338591399</created>
@@ -58,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608339634878</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Use MVC Practice As Base">
+      <created>1608339946491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608339946491</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,18 +80,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Use MVC Practice As Base" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="561" y="262" key="Github.ShareDialog" timestamp="1608338181410">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608340087722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1608338181410" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608340087722" />
+    <state x="507" y="266" key="Github.CreateGistDialog" timestamp="1608340198921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="507" y="266" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1608340198921" />
+    <state x="561" y="262" key="Github.ShareDialog" timestamp="1608340101259">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1608340101259" />
     <state x="562" y="69" key="Github.UntrackedFilesDialog" timestamp="1608338189001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="562" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608338189001" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608339793396">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1608339928821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608339793396" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1608339928821" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608340052440">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608340052440" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608339594272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
