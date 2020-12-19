@@ -1,5 +1,5 @@
 <?php include('abstract-views/header.php'); ?>
-<a href=".?action=display_question_form&userId=$userId">
+    <a href=".?action=display_question_form&userId=$userId">Add Question</a>
 <table>
 	<tr>
 		<th>Name</th>
