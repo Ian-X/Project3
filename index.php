@@ -52,14 +52,26 @@ switch ($action) {
 	}
 	case 'display_question_form': {
 		$userId = filter_input(INPUT_GET, 'userId');
+        $title = filter_input(INPUT_GET, 'title');
+        $body = filter_input(INPUT_GET, 'body');
+        $skills = filter_input(INPUT_GET, 'skills');
 		if($userId == NULL || $userId < 0){
 			header('Location: .?action=display_login');
 		}else{
-			include('views/question_form.php');
+			include('views/questions_form.php');
 		}
 		break;
 	}
-	case 'submit question': {
+    case 'edit_question':{
+        $userId = filter_input(INPUT_POST, 'userId');
+        $title = filter_input(INPUT_POST, 'title');
+        $body = filter_input(INPUT_POST, 'body');
+        $skills = filter_input(INPUT_POST, 'skills');
+        delete_question($title, $body, $skills, $userId);
+        header("Location: .?action=display_question_form&userId=$userId&title=$title&body=$body&skills=$skills");
+        break;
+    }
+	case 'submit_question': {
 		$userId = filter_input(INPUT_POST, 'userId');
 		$title = filter_input(INPUT_POST, 'title');
 		$body = filter_input(INPUT_POST, 'body');
@@ -68,11 +80,22 @@ switch ($action) {
 			$error = 'All fields are required';
 			include('errors/error.php');
 		}else{
-			create_questions($title, $body, $skills, $userId);
+			create_question($title, $body, $skills, $userId);
 			header("Location: .?action=display_questions&userId=$userId");
 		}
 		break;
 	}
+    case 'delete_question':{
+        $userId = filter_input(INPUT_POST, 'userId');
+        $title = filter_input(INPUT_POST, 'title');
+        $body = filter_input(INPUT_POST, 'body');
+        $skills = filter_input(INPUT_POST, 'skills');
+        delete_question($title, $body, $skills, $userId);
+        header("Location: .?action=display_questions&userId=$userId&title=$title&body=$body&skills=$skills");
+
+        break;
+    }
+
     default: {
         $error = 'Unknown Action';
         include('errors/error.php');

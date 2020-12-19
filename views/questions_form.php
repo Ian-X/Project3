@@ -8,20 +8,20 @@
 
 	<div class="form-group">
 		<label for="title">Question Title</label>
-		<input type="text" name="title">
+		<input type="text" name="title" <?php if($title != NULL){?>value="<?php echo $title; } ?>">
 	</div>
 
 	<div class="form-group">
 		<label for="body">Question Body</label>
-		<input type="text" name="body">
+		<input type="text" name="body" <?php if($body != NULL){?>value="<?php echo $body; } ?>">
 	</div>
 	
 	<div class="form-group">
 		<label for="skills">Question Skills</label>
-		<input type="text" name="skills">
+		<input type="text" name="skills" <?php if($skills != NULL){?>value="<?php echo $skills; } ?>">
 	</div>
 	
-	<input type="submit" class="btn" value="Add Question">
+	<input type="submit" class="btn-primary" value="Add Question">
 
 </form>
 

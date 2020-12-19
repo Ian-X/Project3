@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Changed header">
+    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Added Add Question">
+      <change afterPath="$PROJECT_DIR$/views/edit_questions_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/questions_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/questions_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/abstract-views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/abstract-views/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/display_questions.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/display_questions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/questions_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/questions_form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,7 @@
       <updated>1608337986862</updated>
       <workItem from="1608337987933" duration="13798000" />
       <workItem from="1608397439966" duration="633000" />
-      <workItem from="1608398383122" duration="18000" />
+      <workItem from="1608398383122" duration="14006000" />
     </task>
     <task id="LOCAL-00001" summary="Use MVC Practice As Base">
       <created>1608338591399</created>
@@ -93,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608343162132</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Add Question">
+      <created>1608398445770</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608398445770</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,48 +121,22 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Use MVC Practice As Base" />
     <MESSAGE value="Changed header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed header" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="59" y="205" key="#SQL_Dialects" timestamp="1608371053553">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="59" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1608371053553" />
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608372345838">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608372345838" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608343776025">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608343776025" />
-    <state x="507" y="266" key="Github.CreateGistDialog" timestamp="1608340198921">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="507" y="266" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1608340198921" />
-    <state x="561" y="262" key="Github.ShareDialog" timestamp="1608340101259">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1608340101259" />
-    <state x="562" y="69" key="Github.UntrackedFilesDialog" timestamp="1608338189001">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="562" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608338189001" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1608339928821">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1608339928821" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608388517324">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608388517324" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608343245574">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1608343245574" />
+    <MESSAGE value="Added Add Question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Add Question" />
   </component>
 </project>
