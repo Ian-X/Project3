@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Use MVC Practice As Base">
-      <change beforePath="$PROJECT_DIR$/model/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/database.php" afterDir="false" />
-    </list>
+    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Use MVC Practice As Base" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608337986862</updated>
-      <workItem from="1608337987933" duration="1384000" />
+      <workItem from="1608337987933" duration="1688000" />
     </task>
     <task id="LOCAL-00001" summary="Use MVC Practice As Base">
       <created>1608338591399</created>
@@ -46,7 +44,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608338591399</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Use MVC Practice As Base">
+      <created>1608339549058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608339549058</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Use MVC Practice As Base">
+      <created>1608339634878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608339634878</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,5 +78,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="562" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608338189001" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608339793396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608339793396" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608339594272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1608339594272" />
   </component>
 </project>
