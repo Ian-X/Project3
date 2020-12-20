@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Fixed delete button problem">
+    <list default="true" id="e5e2d582-ea8c-4eaa-b94f-68b07288bb9f" name="Default Changelist" comment="Added Registration page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/accounts_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/accounts_db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       <updated>1608337986862</updated>
       <workItem from="1608337987933" duration="13798000" />
       <workItem from="1608397439966" duration="633000" />
-      <workItem from="1608398383122" duration="27433000" />
+      <workItem from="1608398383122" duration="29789000" />
     </task>
     <task id="LOCAL-00001" summary="Use MVC Practice As Base">
       <created>1608338591399</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608417697516</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Registration page">
+      <created>1608501028225</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608501028225</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +156,7 @@
     <MESSAGE value="Added Add Question" />
     <MESSAGE value="Added buttons and functionality" />
     <MESSAGE value="Fixed delete button problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed delete button problem" />
+    <MESSAGE value="Added Registration page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Registration page" />
   </component>
 </project>

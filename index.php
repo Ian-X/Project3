@@ -43,7 +43,7 @@ switch ($action) {
 	case 'display_questions':{
 		$userId = filter_input(INPUT_GET, 'userId');
 		if($userId == NULL || $userId < 0){
-			header('Location: .?action=display_login');
+			header('Location: .?action=show_login');
 		}else{
 			$questions = get_users_questions($userId);
 			include('views/display_questions.php');
@@ -56,18 +56,18 @@ switch ($action) {
         $body = filter_input(INPUT_GET, 'body');
         $skills = filter_input(INPUT_GET, 'skills');
 		if($userId == NULL || $userId < 0){
-			header('Location: .?action=display_login');
+			header('Location: .?action=show_login');
 		}else{
 			include('views/questions_form.php');
 		}
 		break;
 	}
     case 'register_user':{
-        $fname = filter_input(INPUT_POST, 'fname');
-        $lname = filter_input(INPUT_POST, 'lname');
-        $bday = filter_input(INPUT_POST, 'bday');
-        $email = filter_input(INPUT_POST, 'email');
-        $password = filter_input(INPUT_POST, 'pass');
+        $fname = filter_input(INPUT_GET, 'fname');
+        $lname = filter_input(INPUT_GET, 'lname');
+        $bday = filter_input(INPUT_GET, 'bday');
+        $email = filter_input(INPUT_GET, 'email');
+        $password = filter_input(INPUT_GET, 'pass');
         if($email == NULL || $password == NULL || $fname == NULL || $lname == NULL || $bday == NULL){
             $error = 'All fields must be filled';
             include('errors/error.php');
@@ -81,8 +81,9 @@ switch ($action) {
                 include('errors/error.php');
             }
             else{
-                create_user($email, $fname, $lname, $bday, $password);
-                header('Location: .?action=display_login');
+                //create_user($email, $fname, $lname, $bday, $password);
+                //header('Location: .?action=show_login');
+                echo $password;
             }
         }
     }

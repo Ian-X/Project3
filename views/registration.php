@@ -1,8 +1,7 @@
 <?php include('abstract-views/header.php'); ?>
 <h1>Registration</h1>
-    <form action="index.php" method="post">
-        <input type="hidden" name="action" value="display_question">
-        <input type="hidden" name="userId" value="<?php echo $userId; ?>">
+    <form action="index.php" method="POST">
+        <input type="hidden" name="action" value="register_user">
 
         <div class="form-group">
             <label for="fname">First Name</label>
@@ -11,22 +10,22 @@
 
         <div class="form-group">
             <label for="lname">Last Name</label>
-            <input type="text" name="lname" >
+            <input type="text" name="lname">
         </div>
 
         <div class="form-group">
             <label for="bday">Birthday</label>
-            <input type="text" name="bday" >
+            <input type="text" name="bday">
         </div>
 
         <div class="form-group">
             <label for="email">Email</label>
-            <input type="text" name="email" >
+            <input type="text" name="email">
         </div>
 
         <div class="form-group">
             <label for="pass">Password</label>
-            <input type="password" name="pass" >
+            <input type="password" name="pass">
         </div>
 
         <input type="submit" class="btn-primary" value="Register">
