@@ -2,9 +2,9 @@
 require('model/database.php');
 require('model/accounts_db.php');
 require('model/questions_db.php');
-ini_set('display_errors', 1);
+/*ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+error_reporting(E_ALL);*/
 
 $action = filter_input(INPUT_POST, 'action');
 if ($action == NULL) {
@@ -62,6 +62,30 @@ switch ($action) {
 		}
 		break;
 	}
+    case 'register_user':{
+        $fname = filter_input(INPUT_POST, 'fname');
+        $lname = filter_input(INPUT_POST, 'lname');
+        $bday = filter_input(INPUT_POST, 'bday');
+        $email = filter_input(INPUT_POST, 'email');
+        $password = filter_input(INPUT_POST, 'pass');
+        if($email == NULL || $password == NULL || $fname == NULL || $lname == NULL || $bday == NULL){
+            $error = 'All fields must be filled';
+            include('errors/error.php');
+        }else{
+            if(!strpos($email,"@")){
+                $error = 'Email requires @';
+                include('errors/error.php');
+            }
+            else if(strlen($password) < 8){
+                $error = 'Password too short. Must be at least 8 character.';
+                include('errors/error.php');
+            }
+            else{
+                create_user($email, $fname, $lname, $bday, $password);
+                header('Location: .?action=display_login');
+            }
+        }
+    }
     case 'edit_question':{
         $userId = filter_input(INPUT_POST, 'userId');
         $title = filter_input(INPUT_POST, 'title');
