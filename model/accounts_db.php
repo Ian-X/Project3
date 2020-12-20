@@ -17,7 +17,7 @@ function validate_login($email, $password){
 }
 function create_user($email, $fname, $lname, $bday, $password){
     global $db;
-    $query = 'INSERT INTO questions 
+    $query = 'INSERT INTO accounts 
 				(email, fname, lname, birthday, password)
 				VALUES
 				(:email, :fname, :lname, :birthday, :password)';
@@ -28,12 +28,5 @@ function create_user($email, $fname, $lname, $bday, $password){
     $statement->bindValue(':birthday', $bday);
     $statement->bindValue(':password', $password);
     $statement->execute();
-    $user = $statement->fetch();
     $statement->closeCursor();
-
-    if(count($user) > 0){
-        return $user['id'];
-    }else{
-        return false;
-    }
 }

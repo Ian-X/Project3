@@ -81,11 +81,12 @@ switch ($action) {
                 include('errors/error.php');
             }
             else{
-                //create_user($email, $fname, $lname, $bday, $password);
-                //header('Location: .?action=show_login');
+                create_user($email, $fname, $lname, $bday, $password);
+                header('Location: .?action=show_login');
                 echo $password;
             }
         }
+        break;
     }
     case 'edit_question':{
         $userId = filter_input(INPUT_POST, 'userId');

@@ -23,7 +23,7 @@ function create_question ($title, $body, $skills, $ownerid){
 	$statement->bindValue(':skills', $skills);
 	$statement->bindValue(':ownerid', $ownerid);
 	$statement->execute();
-	$statement->closeCursor();
+    $statement->closeCursor();
 }
 
 function delete_question ($title, $body, $skills, $ownerid){
